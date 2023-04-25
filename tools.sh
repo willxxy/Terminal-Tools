@@ -18,3 +18,6 @@ tar -xf ${name_of_compressed_file}.tar.${tar_type}
 name_of_env=
 conda env export --no-builds > ${name_of_env}.yml
 
+# IP Adress
+curl ifconfig.me
+
