@@ -21,3 +21,6 @@ conda env export --no-builds > ${name_of_env}.yml
 # IP Adress
 curl ifconfig.me
 
+# Kill tmux session
+tmux kill-session -t session_name
+
