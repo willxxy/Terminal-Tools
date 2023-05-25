@@ -27,3 +27,7 @@ tmux kill-session -t session_name
 # Create new tmux session with a specified name
 tmux new-session -s session_name
 
+# Remove conda environment
+ENV_NAME=
+conda remove -n ${ENV_NAME} --all
+
