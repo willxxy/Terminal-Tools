@@ -31,3 +31,5 @@ tmux new-session -s session_name
 ENV_NAME=
 conda remove -n ${ENV_NAME} --all
 
+# export java path. export defined in .bashrc
+export PATH=$JAVA_HOME/bin:$PATH
