@@ -33,3 +33,6 @@ conda remove -n ${ENV_NAME} --all
 
 # export java path. export defined in .bashrc
 export PATH=$JAVA_HOME/bin:$PATH
+
+# partially download files through html request by specifying by†es
+curl -o partial.zip -H "Range: bytes=0-1073741823" [URL]
