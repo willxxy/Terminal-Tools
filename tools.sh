@@ -36,3 +36,9 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 # partially download files through html request by specifying by†es
 curl -o partial.zip -H "Range: bytes=0-1073741823" [URL]
+
+# Create conda environment from yml
+conda env create -f environment.yml
+
+# Create conda environment with specific python 
+conda create -n myenv python=3.9
