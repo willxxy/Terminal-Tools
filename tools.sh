@@ -42,3 +42,8 @@ conda env create -f environment.yml
 
 # Create conda environment with specific python 
 conda create -n myenv python=3.9
+
+# How to link jupyter kernel to virtual environment
+pip install --user ipykernel
+python -m ipykernel install --user --name=myenv
+
