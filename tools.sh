@@ -10,7 +10,6 @@ name_of_folder=
 tar_type=
 scp ${name_of_folder}.tar.${tar_type} username@IP_address:${path_to_folder}
 
-
 # IP Adress
 curl ifconfig.me
 
