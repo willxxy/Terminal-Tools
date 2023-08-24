@@ -2,6 +2,9 @@
 # Return memory usage of current dir
 du -hs
 
+# Return memory usage of file systems
+df -h
+
 
 #### SSH AND SCP STUFF ####
 # Remote transfer folder/file to specified address
