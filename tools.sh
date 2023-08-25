@@ -12,6 +12,9 @@ lsb_release -a
 # More detailed OS and ID info
 cat /etc/os-release
 
+# Kernel Info
+uname -a
+
 
 #### SSH AND SCP STUFF ####
 # Remote transfer folder/file to specified address
