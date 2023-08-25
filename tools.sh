@@ -9,6 +9,9 @@ df -h
 # To get the LSB modules and distributor info
 lsb_release -a 
 
+# More detailed OS and ID info
+cat /etc/os-release
+
 
 #### SSH AND SCP STUFF ####
 # Remote transfer folder/file to specified address
