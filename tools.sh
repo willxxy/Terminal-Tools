@@ -5,6 +5,10 @@ du -hs
 # Return memory usage of file systems
 df -h
 
+##### SYSTEM STUFF ####
+# To get the LSB modules and distributor info
+lsb_release -a 
+
 
 #### SSH AND SCP STUFF ####
 # Remote transfer folder/file to specified address
