@@ -15,6 +15,9 @@ cat /etc/os-release
 # Kernel Info
 uname -a
 
+# Host info
+hostnamectl
+
 
 #### SSH AND SCP STUFF ####
 # Remote transfer folder/file to specified address
