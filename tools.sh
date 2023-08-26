@@ -89,3 +89,8 @@ ssh -X username@server_ip
 /opt/TurboVNC/bin/vncserver
 
 /opt/TurboVNC/bin/vncserver -kill :displaynumber
+
+
+#### ROS ####
+#sourcing ros workspace
+source ~/my_ros_ws/devel/setup.bash
