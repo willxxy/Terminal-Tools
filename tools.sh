@@ -80,3 +80,12 @@ tmux new-session -s session_name
 #### JAVA STUFF ####
 # export java path. export defined in .bashrc
 export PATH=$JAVA_HOME/bin:$PATH
+
+#### TurboVNC ####
+#when sshing
+ssh -X username@server_ip
+
+# starting vnc server
+/opt/TurboVNC/bin/vncserver
+
+/opt/TurboVNC/bin/vncserver -kill :displaynumber
