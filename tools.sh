@@ -94,3 +94,7 @@ ssh -X username@server_ip
 #### ROS ####
 #sourcing ros workspace
 source ~/my_ros_ws/devel/setup.bash
+
+
+#### GAZEBO ####
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:home/william/../../data/william/path/to/models
