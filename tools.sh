@@ -20,6 +20,9 @@ hostnamectl
 
 
 #### SSH AND SCP STUFF ####
+# Add ssh to ssh file
+ssh-add ~/.ssh/id_rsa)file  
+
 # Remote transfer folder/file to specified address
 path_to_folder=
 name_of_folder=
