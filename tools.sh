@@ -1,3 +1,7 @@
+##### ZSH STUFF ####
+Ctrl + A: Move to the beginning of the line.
+Ctrl + E: Move to the end of the line.
+
 ##### MEMORY STUFF ####
 # Return memory usage of current dir
 du -hs
