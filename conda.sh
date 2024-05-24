@@ -15,3 +15,12 @@ conda create -n myenv python=3.9
 
 # see all conda environments
 conda env list
+
+# initiate virtual environment
+conda activate envname
+
+# deactivate virtual environment
+conda deactivate
+
+# cleaning
+conda clean --all
