@@ -24,3 +24,5 @@ conda deactivate
 
 # cleaning
 conda clean --all
+
+### always use pip with conda to install packages
