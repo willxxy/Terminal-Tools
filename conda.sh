@@ -22,6 +22,9 @@ conda activate envname
 # deactivate virtual environment
 conda deactivate
 
+# clone an environment
+conda create --name myclone --clone myenv
+
 # cleaning
 conda clean --all
 
