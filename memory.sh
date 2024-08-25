@@ -10,3 +10,6 @@ df -h .
 
 # Return all file (including hidden files) in current directory
 ls -a
+
+# Return memory, date of creation, of single file
+ls -lh file_name
