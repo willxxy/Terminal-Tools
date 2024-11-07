@@ -102,3 +102,9 @@ if [[ -n "$CUDA_VERSION" ]]; then
 else
   echo ""
 fi
+
+### Then after this add this to bash to overide your cuda version
+export PATH=/home/XXX/cuda121/cuda-12.1/bin:$PATH
+export LD_LIBRARY_PATH=/home/XXX/cuda121/cuda-12.1/lib64:$LD_LIBRARY_PATH
+export CUDA_HOME=/home/XXX/cuda121/cuda-12.1
+export CUDA_VERSION=121
