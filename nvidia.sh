@@ -1,3 +1,5 @@
+# super useful nvidia installation and config documentation for linux x86_64 https://download.nvidia.com/XFree86/Linux-x86_64/304.137/README/installationandconfiguration.html
+
 ### Look at GPU usage, PID etc.
 nvidia-smi
 
