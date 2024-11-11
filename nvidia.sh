@@ -97,16 +97,12 @@ if [[ -n "$CUDA_VERSION" ]]; then
   wget $URL
   bash $FILE --no-drm --no-man-page --override --toolkitpath=$BASE_PATH/$FOLDER/ --toolkit --silent
   if [ "$EXPORT_BASHRC" -eq "1" ]; then
-    echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:$BASE_PATH/$FOLDER/lib64" >> ~/.bashrc
-    echo "export PATH=\$PATH:$BASE_PATH/$FOLDER/bin" >> ~/.bashrc
+    echo "export PATH=$BASE_PATH/$FOLDER/bin:$PATH" >> ~/.bashrc
+    echo "export LD_LIBRARY_PATH=$BASE_PATH/$FOLDER/lib64:$LD_LIBRARY_PATH" >> ~/.bashrc
+    echo "export CUDA_HOME=$BASE_PATH/$FOLDER" >> ~/.bashrc
+    echo "export CUDA_VERSION=$CUDA_VERSION" >> ~/.bashrc
     source ~/.bashrc
   fi
 else
   echo ""
 fi
-
-### Then after this add this to bash to overide your cuda version
-export PATH=/home/XXX/cuda121/cuda-12.1/bin:$PATH
-export LD_LIBRARY_PATH=/home/XXX/cuda121/cuda-12.1/lib64:$LD_LIBRARY_PATH
-export CUDA_HOME=/home/XXX/cuda121/cuda-12.1
-export CUDA_VERSION=121
