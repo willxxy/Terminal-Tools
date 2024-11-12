@@ -10,3 +10,6 @@ uname -a
 
 # Host info
 hostnamectl
+
+# system log
+cat /var/log/Xorg.0.log
