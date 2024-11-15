@@ -13,3 +13,6 @@ hostnamectl
 
 # system log
 cat /var/log/Xorg.0.log
+
+# crash logs
+dmesg | tail
