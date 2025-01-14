@@ -12,7 +12,8 @@ nvcc --version
 ### Print GPUs compute capbability
 nvidia-smi --query-gpu=compute_cap --format=csv
 
-
+### more detailed nvidia-smi
+nvidia-smi -q -d COMPUTE,MEMORY,PIDS
 
 ### CUDA INSTALL 
 
