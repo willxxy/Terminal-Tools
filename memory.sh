@@ -13,3 +13,6 @@ ls -a
 
 # Return memory, date of creation, of single file
 ls -lh file_name
+
+# Traverse through dir and name all user folder mem usage
+sudo du -d 1 -h
