@@ -15,6 +15,9 @@ nvidia-smi --query-gpu=compute_cap --format=csv
 ### more detailed nvidia-smi
 nvidia-smi -q -d COMPUTE,MEMORY,PIDS
 
+### Deep nvidia debugging
+sudo nvidia-bug-report.sh
+
 ### CUDA INSTALL 
 
 URL110=https://developer.download.nvidia.com/compute/cuda/11.0.3/local_installers/cuda_11.0.3_450.51.06_linux.run
