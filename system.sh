@@ -17,6 +17,9 @@ cat /var/log/Xorg.0.log
 # crash logs
 dmesg | tail
 
+# check username given PID
+ps -f -p <PID>
+
 # checking SWAP mem usage by user and PID
 
 for user in $(ps -ef | awk '{print $1}' | sort | uniq); do
