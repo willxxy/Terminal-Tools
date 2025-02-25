@@ -2,6 +2,9 @@
 # Kill tmux session
 tmux kill-session -t session_name
 
+# Kill all tmux sessions 
+tmux kill-server
+
 # Create new tmux session with a specified name
 tmux new-session -s session_name
 
