@@ -20,6 +20,12 @@ dmesg | tail
 # check username given PID
 ps -f -p <PID>
 
+# Check all processes given user
+ps -u william
+
+# More detailed check all processes given user
+ps aux | grep william
+
 # checking SWAP mem usage by user and PID
 
 for user in $(ps -ef | awk '{print $1}' | sort | uniq); do
