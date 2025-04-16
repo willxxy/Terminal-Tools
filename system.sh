@@ -39,3 +39,8 @@ for user in $(ps -ef | awk '{print $1}' | sort | uniq); do
                 print "  PID: "$1" Swap: "swap" MB Command: "$4
         }'
 done
+
+
+# find a certain dir and delete all folders for that dir
+
+find ./rollouts/libero_spatial -type d -name frames -prune -exec rm -rf {} +
