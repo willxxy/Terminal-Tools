@@ -44,3 +44,6 @@ done
 # find a certain dir and delete all folders for that dir
 
 find ./rollouts/libero_spatial -type d -name frames -prune -exec rm -rf {} +
+
+# find last 20 lines in bash history file executed bash scripts across users
+sudo find /home -name ".bash_history" -exec echo "=== {} ===" \; -exec tail -20 {} \;
